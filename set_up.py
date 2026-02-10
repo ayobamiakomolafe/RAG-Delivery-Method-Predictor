@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Load API
-os.environ["COHERE_API_KEY"] = os.getenv("COHERE_API_KEY")
+os.environ["COHERE_API_KEY"] = st.secrets["COHERE_API_KEY"]
 
 def delivery_method_predictor_1(profile: dict):
 
@@ -265,3 +265,4 @@ Alternative Option:
     })
 
     return result.content
+
