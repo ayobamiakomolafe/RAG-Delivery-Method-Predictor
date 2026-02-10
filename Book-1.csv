@@ -1,0 +1,13 @@
+#,Delivery Method,Simple Description,Typical Best For,Hosting Control,Complexity
+1,AI SaaS / Out-of-the-Box,Plug-and-play AI software with no build required,"Fast business improvements, automation, content",Vendor,Low
+2,Proprietary Model Provider (API),Direct use of closed AI models via API,Custom features without infrastructure,Vendor,Low-Medium
+3,Proprietary Model + RAG,API model connected to your documents/data,"Knowledge search, support bots, internal Q&A",Vendor model + your data,Medium
+4,Fine-Tuned Proprietary Model,Provider model trained on your dataset,"Brand voice, classification, specialized outputs",Vendor,Medium
+5,Open-Source Model (Prompt-Only),Self-hosted open model with prompting only,Privacy-sensitive or low-cost internal AI,You,Medium
+6,Fine-Tuned Open-Source Model,Open model trained on your proprietary data,Higher accuracy with full control,You,Medium-High
+7,Open-Source Model + RAG,Self-hosted model connected to internal knowledge,"Private document search, secure copilots",You,High
+8,Fine-Tuned / Custom Model + RAG,Tuned model + retrieval for maximum accuracy,"Enterprise knowledge systems, regulated AI",You,High
+9,From-Scratch Custom Model,Fully new model trained from the ground up,"Research, unique IP, extreme specialization",You,Very High
+10,Hybrid / Ensemble Architecture,Multiple AI models working together,"Complex, multi-step, or multimodal workflows",Mixed,High
+11,Embedded / Edge AI,AI running on local devices or hardware,"Real-time, offline, IoT, manufacturing",Local device,High
+12,Multi-Layer AI System,"Stacked combination of SaaS, RAG, APIs, edge, etc.",Large-scale enterprise AI ecosystems,Mixed,Very High

@@ -1,0 +1,9 @@
+streamlit
+numpy
+pandas
+langchain
+langchain-community
+langchain-chroma
+langchain-cohere
+langchain-classic
+langchain_core
