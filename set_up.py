@@ -9,9 +9,7 @@ from langchain_classic.chains import create_retrieval_chain
 from langchain_community.embeddings import CohereEmbeddings
 from langchain_chroma import Chroma
 import time
-
-from dotenv import load_dotenv
-load_dotenv()
+import streamlit as st
 
 # Load API
 os.environ["COHERE_API_KEY"] = st.secrets["COHERE_API_KEY"]
@@ -265,4 +263,5 @@ Alternative Option:
     })
 
     return result.content
+
 
